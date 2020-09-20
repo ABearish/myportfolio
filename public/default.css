@@ -28,7 +28,7 @@ p, li, span, label, input, text {
 
 a {
   text-decoration: none;
-  color: #17a2b8
+  color: #046f80
 }
 
 ul {
@@ -285,8 +285,19 @@ h6 {font-size: 16px;}
   font-size: 16px;
 }
 
+.post i {
+  color: black;
+  font-weight: 500;
+  font-display: swap;
+}
+
 #contact-form {
-  display: block;
+  color: var(--mainText);
+  font-family: 'Russo One', sans-serif;
+  font-display: swap;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-evenly;
   max-width: 600px;
   margin: 0 auto;
   border: 1px solid var(--borderColor);
@@ -294,6 +305,14 @@ h6 {font-size: 16px;}
   border-radius: 5px;
   background-color: var(--mainColor);
   margin-top: 50px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#contact-form  i {
+  color: var(--mainText);
+  font-weight: 500;
+  font-display: swap;
 }
 
 #contact-form label {
@@ -324,8 +343,12 @@ h6 {font-size: 16px;}
   background-color: var(--buttonColor);
   border: none;
 }
-
-
+@font-face {
+    font-family: "Open Sans Regular";
+    src: url("...");
+    font-display: swap;
+  
+}
 @media screen and (max-width: 1200px) {
   .main-container {
     width: 95%;
