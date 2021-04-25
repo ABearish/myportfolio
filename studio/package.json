@@ -19,13 +19,12 @@
     "@sanity/core": "^2.8.0",
     "@sanity/default-layout": "^2.8.1",
     "@sanity/default-login": "^2.8.0",
-    "@sanity/desk-tool": "^2.8.1",
+    "@sanity/desk-tool": "^1.149.19",
     "@sanity/vision": "^2.8.0",
     "prop-types": "^15.7",
     "react": "^17.0",
     "react-dom": "^17.0"
   },
-  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git@github.com:ABearish/myportfolio.git"
