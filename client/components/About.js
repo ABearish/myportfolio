@@ -24,11 +24,11 @@ const About = () => {
   if (!author) return <div>Loading.....</div>;
 
   return (
-    <main className="relative">
+    <main>
       <img
         src={backgroundImage}
         alt="Bear Mountain Bridge in the Hudson Valley, New York"
-        className="absolute w-full"
+        className="absolute object-cover w-full h-full"
       />
       <div className="p-10 lg:pt-48 container mx-auto relative">
         <section className="bg-green-800 rounded-lg shadow-2xl lg:flex p-20">
