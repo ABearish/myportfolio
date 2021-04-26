@@ -42,17 +42,19 @@ const Project = () => {
                       {project.title}
                     </a>
                   </h3>
-                  <div className="text-gray-500 text-xs space-x-4">
+                  <div className="text-gray-500 text-xs">
                     <span>
                       <strong className="font-bold">Finished on</strong>:{" "}
                       {new Date(
                         project.date || new Date()
                       ).toLocaleDateString()}
                     </span>
+                    <br/>
                     <span>
-                      <strong className="font-bold">Company</strong>:{" "}
+                      <strong className="font-bold">Location</strong>:{"\n"}
                       {project.place}
                     </span>
+                    <br/>
                     <span>
                       <strong className="font-bold">Type</strong>:{" "}
                       {project.projectType}
