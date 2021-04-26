@@ -36,24 +36,24 @@ const NavBar = () => {
             About Me
           </NavLink>
         </nav>
-        <div className="inline-flex py-3 px-3 my-6 overflow-auto">
+        <div className="inline-flex py-3 px-3 my-6">
           <SocialIcon
             url="https://www.linkedin.com/in/aberisha/"
-            className="mr-4"
+            className="mr-4 overflow-auto"
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
           />
           <SocialIcon
             url="https://github.com/aBearish/"
-            className="mr-4"
+            className="mr-4 overflow-auto"
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
           />
           <SocialIcon
             url="mailto: Anton.Berisha01@gmail.com"
-            className="mr-4"
+            className="mr-4 overflow-auto"
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
