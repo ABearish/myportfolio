@@ -52,7 +52,7 @@ const NavBar = () => {
             style={{ height: 35, width: 35 }}
           />
           <SocialIcon
-            url="mailto: Anton.Berisha01@gmail.com"
+            url="mailto: ndekogq3i@relay.firefox.com?subject=AntonBerisha.com"
             className="mr-4 overflow-auto"
             target="_blank"
             fgColor="#fff"
