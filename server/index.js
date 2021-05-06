@@ -9,9 +9,6 @@ app.use(express.static(path.join(__dirname, `../public/`), function(err) {
   }
 }));
 
-const cors = require('cors');
-app.use(cors());
-
 app.get('/*', (req,res) => {
   res.sendFile(path.resolve(__dirname ,'../public/index.html'));
 });
