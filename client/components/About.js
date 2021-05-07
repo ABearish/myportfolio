@@ -56,7 +56,7 @@ const About = () => {
   ) 
   }
   return (
-    author ? displayAboutMe(): <Loading /> 
+    author ? displayAboutMe() : <Loading />
   );
 };
 
