@@ -6,21 +6,24 @@ const About = React.lazy(() => import("./components/About"));
 const SinglePost = React.lazy(() => import("./components/SinglePost"));
 const Post = React.lazy(() => import("./components/Post"));
 const Project = React.lazy(() => import("./components/Project"));
+const Error = React.lazy(() => import("./components/Error"));
+
 
 const App = () => {
+
   return (
     <BrowserRouter>
       <NavBar />
-      <Switch>
         <Suspense fallback={<div>...Loading</div>}>
+      <Switch>
           <Route component={Home} path="/" exact />
           <Route component={About} path="/about" />
           <Route component={SinglePost} path="/post/:slug" />
           <Route component={Post} path="/post" />
           <Route component={Project} path="/project" />
-        </Suspense>
-        <Route component={Home} path="/*" />
+          <Route component={Error} />
       </Switch>
+        </Suspense>
     </BrowserRouter>
   );
 };
