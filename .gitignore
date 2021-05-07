@@ -1,2 +1,8 @@
 node_modules*
-/public
+/public/*.map
+/public/*.js
+/public/*.jpg
+/public/*.txt
+/public/*.css
+/public/images
+!/public/robot.txt
