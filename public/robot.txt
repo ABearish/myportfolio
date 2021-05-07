@@ -1,6 +1,0 @@
-User-agent: *
-Disallow: /images/
-Allow: /images/aboutMeBg.jpg
-Allow: /images/portfolio.jpg
-Disallow: /js/
-Disallow: /css/ 
