@@ -18,21 +18,21 @@ const NavBar = () => {
             to="/post"
             activeClassName="text-red-100 bg-red-700"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
-          >
+            >
             Blog Posts
           </NavLink>
           <NavLink
             to="/project"
             activeClassName="text-red-100 bg-red-700"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
-          >
+            >
             Projects
           </NavLink>
           <NavLink
             to="/about"
             activeClassName="text-red-100 bg-red-700"
             className="inline-flex items-center py-3 px-3 my-6 rounded text-red-200 hover:text-green-800"
-          >
+            >
             About Me
           </NavLink>
         </nav>
@@ -43,21 +43,24 @@ const NavBar = () => {
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
-          />
+            rel ="noopener noreferrer"
+            />
           <SocialIcon
             url="https://github.com/aBearish/"
             className="mr-4 overflow-auto"
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
-          />
+            rel ="noopener noreferrer"
+            />
           <SocialIcon
             url="mailto: ndekogq3i@relay.firefox.com?subject=AntonBerisha.com"
             className="mr-4 overflow-auto"
             target="_blank"
             fgColor="#fff"
             style={{ height: 35, width: 35 }}
-          />
+            rel ="noopener noreferrer"
+            />
         </div>
       </div>
     </header>
