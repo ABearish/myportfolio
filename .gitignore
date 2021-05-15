@@ -5,4 +5,4 @@ node_modules*
 /public/*.txt
 /public/*.css
 /public/images
-!/public/robot.txt
+!/public/robots.txt
