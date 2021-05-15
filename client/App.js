@@ -1,6 +1,7 @@
 import React, { Suspense } from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 import Loading from './components/Loading';
 const Home = React.lazy(() => import("./components/Home"));
 const About = React.lazy(() => import("./components/About"));
@@ -24,6 +25,7 @@ const App = () => {
           <Route component={Error} />
       </Switch>
         </Suspense>
+        <Footer />
     </BrowserRouter>
   );
 };
