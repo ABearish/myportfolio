@@ -4,7 +4,7 @@ import { SocialIcon } from "react-social-icons";
 const NavBar = () => {
   return (
     <header className="bg-red-600">
-      <div className="container mx-auto flex justify-between overflow-y-auto">
+      <div className="container mx-auto flex justify-between">
         <nav className="flex">
           <NavLink
             to="/"
@@ -36,7 +36,7 @@ const NavBar = () => {
             About Me
           </NavLink>
         </nav>
-        <div className="inline-flex py-3 px-3 my-6">
+        <div className="hidden md:inline-flex py-3 px-3 my-6">
           <SocialIcon
             url="https://www.linkedin.com/in/aberisha/"
             className="mr-4 overflow-auto"
